@@ -81,11 +81,11 @@ public class Mens implements Serializable, Comparable<Mens> {
     @Override
     public int compareTo(Mens o) {
         int vgl = this.naam.compareTo(o.naam);
-        if (vgl == 0) {
+        /*if (vgl == 0) {
             for (Iterator<Rijbewijs> rb = rijbewijzen.iterator(); vgl == 0 && rb.hasNext() ; ) {
                 vgl = rb.next().compareTo(o.rijbewijzen.iterator().next());
             }
-        }
+        }*/
         return vgl;
     }
 }

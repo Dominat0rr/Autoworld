@@ -150,13 +150,13 @@ public abstract class Voertuig implements Serializable, Comparable<Voertuig> {
 
         // Werkt niet?
         //if (getIngezetenen().contains(passagier)) {
-        /*if (inzittenden.contains(passagier)) {
+        if (inzittenden.contains(passagier)) {
             return true;
-        }*/
-
-        for (Mens inz : inzittenden) {
-            if (inz.equals(passagier)) return true;
         }
+
+        /*for (Mens inz : inzittenden) {
+            if (inz.equals(passagier)) return true;
+        }*/
 
         return false;
     }

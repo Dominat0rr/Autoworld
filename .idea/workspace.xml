@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d7385c4-bec3-42f2-9e4c-ae875b7bc230" name="Default Changelist" comment="Add Boekentas en BoekentasTest">
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Autoworld_Private/be/vdab/util/mens/Mens.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Autoworld_Private/be/vdab/util/mens/Mens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Autoworld_Private/be/vdab/voertuigen/Voertuig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Autoworld_Private/be/vdab/voertuigen/Voertuig$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Autoworld_Private/be/vdab/voertuigen/Voertuig$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Autoworld_Private/be/vdab/voertuigen/Voertuig$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Autoworld_Private/be/vdab/voertuigen/Voertuig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Autoworld_Private/be/vdab/voertuigen/Voertuig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vdab/util/mens/Mens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/util/mens/Mens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vdab/voertuigen/Voertuig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/voertuigen/Voertuig.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,50 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/be/vdab/voertuigen/Personenwagen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="58" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/be/vdab/util/Volume.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/be/vdab/voertuigen/Pickup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/be/vdab/voertuigen/Vrachtwagen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="49" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/vdab/schoolgerief/Boekentas.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,20 +41,57 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/be/vdab/voertuigen/Voertuig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2040">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="549">
+              <caret line="150" column="22" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+              <folding>
+                <element signature="e#4881#4882#0" expanded="true" />
+                <element signature="e#6922#6923#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/vdab/util/mens/MensException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#273#274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/be/vdab/voertuigen/VoertuigTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="419" column="91" selection-start-line="419" selection-start-column="91" selection-end-line="419" selection-end-column="91" />
+              <folding>
+                <element signature="e#0#27574#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/vdab/util/mens/Mens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="617">
+              <caret line="72" column="37" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/vdab/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="139" column="78" selection-start-line="139" selection-start-column="78" selection-end-line="139" selection-end-column="78" />
+            <state relative-caret-position="345">
+              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,10 +145,12 @@
         <option value="$PROJECT_DIR$/test/be/vdab/schoolgerief/BoekentasTest.java" />
         <option value="$PROJECT_DIR$/src/be/vdab/schoolgerief/Boekentas.java" />
         <option value="$PROJECT_DIR$/src/be/vdab/Main.java" />
+        <option value="$PROJECT_DIR$/src/be/vdab/util/mens/Mens.java" />
+        <option value="$PROJECT_DIR$/src/be/vdab/voertuigen/Voertuig.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -324,7 +324,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonenwagenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VoertuigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Autoworld_Private" />
       <extension name="coverage">
         <pattern>
@@ -333,13 +333,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.voertuigen" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.voertuigen.PersonenwagenTest" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.voertuigen.VoertuigTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PickupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VoertuigTest.test_setBestuurder_wissel_Bestuurder_met_ingezetenen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Autoworld_Private" />
       <extension name="coverage">
         <pattern>
@@ -348,8 +348,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.vdab.voertuigen" />
-      <option name="MAIN_CLASS_NAME" value="be.vdab.voertuigen.PickupTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="be.vdab.voertuigen.VoertuigTest" />
+      <option name="METHOD_NAME" value="test_setBestuurder_wissel_Bestuurder_met_ingezetenen" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -389,10 +390,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.VoertuigTest" />
+        <item itemvalue="JUnit.VoertuigTest.test_setBestuurder_wissel_Bestuurder_met_ingezetenen" />
         <item itemvalue="JUnit.VrachtwagenTest" />
         <item itemvalue="JUnit.BoekentasTest" />
-        <item itemvalue="JUnit.PickupTest" />
-        <item itemvalue="JUnit.PersonenwagenTest" />
       </list>
     </recent_temporary>
   </component>
@@ -446,42 +447,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VrachtwagenTest - 2019.04.25 at 09h 57m 51s.xml">
-      <configuration name="VrachtwagenTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VrachtwagenTest - 2019.04.25 at 09h 59m 11s.xml">
-      <configuration name="VrachtwagenTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VrachtwagenTest - 2019.04.25 at 10h 00m 00s.xml">
-      <configuration name="VrachtwagenTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VrachtwagenTest - 2019.04.25 at 10h 00m 24s.xml">
-      <configuration name="VrachtwagenTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VrachtwagenTest - 2019.04.25 at 10h 01m 32s.xml">
-      <configuration name="VrachtwagenTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoekentasTest - 2019.04.25 at 10h 11m 41s.xml">
-      <configuration name="BoekentasTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoekentasTest - 2019.04.25 at 10h 12m 14s.xml">
-      <configuration name="BoekentasTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoekentasTest - 2019.04.25 at 10h 12m 25s.xml">
-      <configuration name="BoekentasTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoekentasTest - 2019.04.25 at 10h 12m 49s.xml">
-      <configuration name="BoekentasTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="VrachtwagenTest - 2019.04.25 at 11h 12m 19s.xml">
       <configuration name="VrachtwagenTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoertuigTest - 2019.04.25 at 11h 43m 08s.xml">
+      <configuration name="VoertuigTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoertuigTest - 2019.04.25 at 11h 43m 33s.xml">
+      <configuration name="VoertuigTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoertuigTest - 2019.04.25 at 11h 59m 57s.xml">
+      <configuration name="VoertuigTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoertuigTest - 2019.04.25 at 12h 00m 02s.xml">
+      <configuration name="VoertuigTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoertuigTest - 2019.04.25 at 12h 14m 07s.xml">
+      <configuration name="VoertuigTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoertuigTest_test_setBestuurder_wissel_Bestuurder_met_ingezetenen - 2019.04.25 at 12h 14m 45s.xml">
+      <configuration name="VoertuigTest.test_setBestuurder_wissel_Bestuurder_met_ingezetenen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoertuigTest_test_setBestuurder_wissel_Bestuurder_met_ingezetenen - 2019.04.25 at 12h 16m 35s.xml">
+      <configuration name="VoertuigTest.test_setBestuurder_wissel_Bestuurder_met_ingezetenen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoertuigTest - 2019.04.25 at 12h 16m 51s.xml">
+      <configuration name="VoertuigTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoertuigTest - 2019.04.25 at 12h 17m 11s.xml">
+      <configuration name="VoertuigTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -490,8 +491,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32981783" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32981783" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39980826" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -515,20 +516,23 @@
     <MESSAGE value="Add Boekentas en BoekentasTest" />
     <option name="LAST_COMMIT_MESSAGE" value="Add Boekentas en BoekentasTest" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/be/vdab/voertuigen/Voertuig.java</url>
+          <line>151</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/be/vdab/voertuigen/div/DIVTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/be/vdab/voertuigen/VoertuigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#27574#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,13 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/vdab/voertuigen/Voertuig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2040">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/be/vdab/voertuigen/PersonenwagenTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -695,12 +692,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/be/vdab/voertuigen/VoertuigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="419" column="91" selection-start-line="419" selection-start-column="91" selection-end-line="419" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#27574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/vdab/util/mens/MensException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/be/vdab/util/mens/MensTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2851">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/be/vdab/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="139" column="78" selection-start-line="139" selection-start-column="78" selection-end-line="139" selection-end-column="78" />
+        <state relative-caret-position="345">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/vdab/util/mens/Mens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="72" column="37" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/vdab/voertuigen/Voertuig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="150" column="22" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+          <folding>
+            <element signature="e#4881#4882#0" expanded="true" />
+            <element signature="e#6922#6923#0" expanded="true" />
           </folding>
         </state>
       </provider>
