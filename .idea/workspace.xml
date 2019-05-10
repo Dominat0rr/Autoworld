@@ -17,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/src/be/vdab/voertuigen/Voertuig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4847#4848#0" expanded="true" />
@@ -418,12 +418,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DatumTest - 2019.05.10 at 12h 15m 43s.xml">
-      <configuration name="DatumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MensTest - 2019.05.10 at 13h 34m 10s.xml">
-      <configuration name="MensTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MensTest - 2019.05.10 at 13h 34m 57s.xml">
       <configuration name="MensTest" configurationId="JUnit" />
     </history-entry>
@@ -448,12 +442,18 @@
     <history-entry file="VoertuigTest - 2019.05.10 at 15h 16m 38s.xml">
       <configuration name="VoertuigTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VoertuigTest - 2019.05.10 at 15h 38m 51s.xml">
+      <configuration name="VoertuigTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoertuigTest - 2019.05.10 at 15h 40m 13s.xml">
+      <configuration name="VoertuigTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -462,7 +462,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32981783" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32981783" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39980826" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -752,7 +752,7 @@
     <entry file="file://$PROJECT_DIR$/src/be/vdab/voertuigen/Voertuig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4847#4848#0" expanded="true" />
