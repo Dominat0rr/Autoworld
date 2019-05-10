@@ -19,7 +19,6 @@ Implementeer de interface Comparable.
 
 public class Nummerplaat implements Comparable<Nummerplaat>, Serializable {
     private static final long serialVersionUID = 1L;
-    private final static Path PATH = Paths.get("/data/wagenpark.ser");
     private final String plaat;
 
     Nummerplaat(String plaat) throws IllegalArgumentException {
@@ -45,7 +44,8 @@ public class Nummerplaat implements Comparable<Nummerplaat>, Serializable {
 
     @Override
     public int hashCode() {
-        return Objects.hash(plaat);
+        //return Objects.hash(plaat);
+        return plaat.hashCode();
     }
 
     @Override

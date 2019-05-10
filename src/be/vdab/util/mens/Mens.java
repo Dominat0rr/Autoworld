@@ -1,10 +1,11 @@
 package be.vdab.util.mens;
 
 import java.io.Serializable;
-import java.util.Iterator;
+import java.util.Collections;
 import java.util.Objects;
 import java.util.Set;
 import java.util.TreeSet;
+import static org.apache.commons.lang3.StringUtils.join;
 
 public class Mens implements Serializable, Comparable<Mens> {
     private String naam;
@@ -18,9 +19,10 @@ public class Mens implements Serializable, Comparable<Mens> {
         this.naam = naam;
     }
 
-    /**
+    /***
      *
      * @param naam
+     * @param rijbewijzen
      */
     public Mens(String naam, Rijbewijs... rijbewijzen) {
         this.naam = naam;
@@ -35,33 +37,36 @@ public class Mens implements Serializable, Comparable<Mens> {
     }
 
     public Set<Rijbewijs> getRijbewijzen() {
-        return rijbewijzen;
+        //return rijbewijzen;
+        return Collections.unmodifiableSet(rijbewijzen);
     }
 
     public Rijbewijs[] getRijbewijs() {
-        Rijbewijs[] rijbewijsArray = new Rijbewijs[rijbewijzen.size()];
-        return rijbewijsArray = rijbewijzen.toArray(rijbewijsArray);
+        return rijbewijzen.toArray(new Rijbewijs[rijbewijzen.size()]);
     }
 
     @Override
     public String toString() {
         //return naam + ", " + rijbewijzen;
 
-        String str = naam;
+        /*String str = naam;
 
         if (rijbewijzen.size() > 0) {
             str += "(";
-            /*for (Rijbewijs rb : rijbewijzen) {
-                str += rb.toString() + ", ";
-            }*/
             for (Iterator<Rijbewijs> it = rijbewijzen.iterator(); it.hasNext();) {
                 str += it.next().toString();
                 if (it.hasNext()) str += ", ";
                 else str += ")";
             }
-           // str = str.substring(0, str.length() - 2) + ")";
         }
-        return str;
+        return str;*/
+
+        if (rijbewijzen.isEmpty()) return naam;
+        else return new StringBuilder().append(naam)
+                    .append("(")
+                    .append(join(rijbewijzen, ", "))
+                    .append(")")
+                    .toString();
     }
 
     @Override

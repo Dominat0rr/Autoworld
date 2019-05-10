@@ -1,7 +1,5 @@
 package be.vdab.voertuigen;
 
-//import org.apache.commons.collections4.IterableUtils;
-
 import be.vdab.util.Datum;
 import be.vdab.util.mens.Mens;
 import be.vdab.util.mens.MensException;
@@ -12,6 +10,9 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.io.Serializable;
 import java.util.*;
+
+import static org.apache.commons.lang3.StringUtils.join;
+import static org.apache.commons.collections4.CollectionUtils.*;
 
 public abstract class Voertuig implements Serializable, Comparable<Voertuig> {
     private static final long serialVersionUID = 1L;
@@ -148,8 +149,6 @@ public abstract class Voertuig implements Serializable, Comparable<Voertuig> {
         if (bestuurder.equals(passagier) || inzittenden.size() + 1 < zitplaatsen)
             return true;
 
-        // Werkt niet?
-        //if (getIngezetenen().contains(passagier)) {
         if (inzittenden.contains(passagier)) {
             return true;
         }
@@ -166,13 +165,17 @@ public abstract class Voertuig implements Serializable, Comparable<Voertuig> {
             throw new MensException(bestuurder.toString() + " : heeft geen enkel rijbewijs!");
         }
         else {
-            for (Rijbewijs geldig : getToegestaneRijbewijzen()) {
+            /*for (Rijbewijs geldig : getToegestaneRijbewijzen()) {
                 for (Rijbewijs chauffeurRB : bestuurder.getRijbewijs()) {
                     if(geldig.equals(chauffeurRB)) {
                         return true;
                     }
                 }
-            }
+            }*/
+            Set<Rijbewijs> bestuurderRijbewijzen = new TreeSet<>(Arrays.asList(bestuurder.getRijbewijs()));
+            Set<Rijbewijs> toegetaneRijbewijzen =  new TreeSet<>(Arrays.asList(getToegestaneRijbewijzen()));
+            //if (bestuurderRijbewijzen.stream().anyMatch(toegetaneRijbewijzen::contains)) return true;
+            if (containsAny(bestuurderRijbewijzen, toegetaneRijbewijzen)) return true;
         }
         throw new MensException (bestuurder.toString () + " : ongeldig rijbewijs");
     }
@@ -221,7 +224,7 @@ public abstract class Voertuig implements Serializable, Comparable<Voertuig> {
 
     @Override
     public String toString() {
-        String str = nummerplaat + " " + merk + " " + datumEersteIngebruikName + " "  + aankoopprijs + " ";
+        /*String str = nummerplaat + " " + merk + " " + datumEersteIngebruikName + " "  + aankoopprijs + " ";
         String strBestuurder = bestuurder.getRijbewijzen().toString().replace("[", "(").replace("]", ")");
         str += bestuurder.getNaam() + strBestuurder;
         if (inzittenden.size() > 0) str += " [";
@@ -230,6 +233,13 @@ public abstract class Voertuig implements Serializable, Comparable<Voertuig> {
             if (it.hasNext()) str += ", ";
             else str += "]";
         }
-        return str;
+        return str;*/
+
+        StringBuilder str = new StringBuilder().append(nummerplaat + " " + merk + " " + datumEersteIngebruikName + " "  + aankoopprijs + " ");
+        str.append(bestuurder.getNaam() + bestuurder.getRijbewijzen().toString().replace("[", "(").replace("]", ")"));
+        if (!inzittenden.isEmpty()) str.append(" [")
+                .append(join(inzittenden, ", "))
+                .append("]");
+        return str.toString();
     }
 }
