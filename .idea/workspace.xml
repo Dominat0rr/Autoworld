@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d7385c4-bec3-42f2-9e4c-ae875b7bc230" name="Default Changelist" comment="Add Boekentas en BoekentasTest">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_collections4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_collections4_4_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Autoworld_Private.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Autoworld_Private.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Autoworld_Private/be/vdab/util/Datum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Autoworld_Private/be/vdab/util/Datum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Autoworld_Private/be/vdab/voertuigen/div/Nummerplaat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Autoworld_Private/be/vdab/voertuigen/div/Nummerplaat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/util/Datum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/util/Datum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/util/mens/Mens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/util/mens/Mens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/voertuigen/Voertuig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/voertuigen/Voertuig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/voertuigen/div/Nummerplaat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/voertuigen/div/Nummerplaat.java" afterDir="false" />
-    </list>
+    <list default="true" id="2d7385c4-bec3-42f2-9e4c-ae875b7bc230" name="Default Changelist" comment="Add Boekentas en BoekentasTest" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/be/vdab/voertuigen/Voertuig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="357">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4847#4848#0" expanded="true" />
@@ -762,8 +751,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/vdab/voertuigen/Voertuig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="357">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4847#4848#0" expanded="true" />
