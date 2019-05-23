@@ -3,9 +3,6 @@ package be.vdab.voertuigen.div;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.Serializable;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Objects;
 
 /*
 Maak een immutable class nummerplaat (immutable  final fields).
